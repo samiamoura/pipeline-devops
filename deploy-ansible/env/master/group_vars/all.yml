@@ -1,0 +1,8 @@
+env: master
+docker_docker_conf:
+  userns-remap: "dockremap:dockremap"
+  insecure-registries: ["192.168.20.215:5000"]
+
+service_install_run_registry_url: "https://192.168.20.215:5000"
+service_install_run_registry_user: "sami"
+service_install_run_registry_password: "sami"

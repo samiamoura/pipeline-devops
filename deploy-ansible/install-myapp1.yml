@@ -1,0 +1,30 @@
+- name: postgres prerequisite
+  hosts: pg
+  become: yes
+  roles:
+  - postgres
+
+- name: install myapp1
+  hosts: myapp1
+  become: yes
+  #pre_tasks:
+  #- name: Install ntpdate 
+  #  apt:
+  #    name: ntpd
+  #    state: present
+      
+  #- name: Update /etc/ntp.conf for update time
+  #  blockinfile:
+  #    path: /etc/ntp.conf
+  #    block: |
+  #      server ntp.ubuntu.com prefer
+  #      server ntp2.jussieu.fr
+  #      server 0.fr.pool.ntp.org
+  #      server 0.europe.pool.ntp.org
+
+  #- name: restart ntp
+  #  shell: "systemctl restart ntp"
+
+  roles:
+  - docker
+  - service_install_run

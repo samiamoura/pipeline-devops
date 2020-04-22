@@ -1,0 +1,8 @@
+service_install_run_data_source_connection: "jdbc:postgresql://192.168.20.214:5432/{{env}}"
+service_install_run_data_source_user: "vagrant"
+service_install_run_data_source_password: "vagrant"
+service_install_run_data_source_port: "8090"
+
+
+service_install_run_image: "192.168.20.215:5000/myapp:0.0.1-SNAPSHOT-7b0d772"
+service_install_run_version: "0.0.1-SNAPSHOT"

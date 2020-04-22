@@ -1,0 +1,9 @@
+/usr/src/mymaven/src/main/java/com/example/postgresdemo/model/Answer.java
+/usr/src/mymaven/src/main/java/com/example/postgresdemo/model/Question.java
+/usr/src/mymaven/src/main/java/com/example/postgresdemo/controller/QuestionController.java
+/usr/src/mymaven/src/main/java/com/example/postgresdemo/PostgresDemoApplication.java
+/usr/src/mymaven/src/main/java/com/example/postgresdemo/model/AuditModel.java
+/usr/src/mymaven/src/main/java/com/example/postgresdemo/exception/ResourceNotFoundException.java
+/usr/src/mymaven/src/main/java/com/example/postgresdemo/repository/QuestionRepository.java
+/usr/src/mymaven/src/main/java/com/example/postgresdemo/repository/AnswerRepository.java
+/usr/src/mymaven/src/main/java/com/example/postgresdemo/controller/AnswerController.java

@@ -1,0 +1,6 @@
+---
+pg_settings:
+  db_name:
+    - { name: "{{env}}" , owner: "sami" }
+  users:
+    - { name: "sami" , password: "sami" }

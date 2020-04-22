@@ -1,0 +1,12 @@
+---
+version: '3.0'
+services:
+  myapp1:
+    image: {{ image }}
+    container_name: myapp1
+    working_dir: /sami/etc
+    command: java -jar /jar/myapp1-{{ version }}.jar --spring.config.location=file:/etc/application.properties
+    volumes:
+    - /sami/etc/application.properties:/etc/application.properties
+    ports:
+    - 8090:8090
